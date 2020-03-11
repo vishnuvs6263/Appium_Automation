@@ -18,6 +18,7 @@ public class Test {
 				"FROM public.auth_manager_user\r\n" + 
 				"WHERE id=8;");
 		System.out.println(rs.getString("username"));
+		System.out.println("Test");
 
 	}
 
